@@ -7,19 +7,19 @@ function App() {
     <div className="App">
       <PersonCard lastName={"Doe"} 
                   firstName={"Jane"} 
-                  age={"45"} 
+                  currentAge={45} 
                   hair={"Black"}/>
       <PersonCard lastName={"Smith"} 
                   firstName={"John"} 
-                  age={"88"} 
+                  currentAge={88} 
                   hair={"Brown"}/>
       <PersonCard lastName={"Fillmore"} 
                   firstName={"Millard"} 
-                  age={"50"} 
+                  currentAge={50} 
                   hair={"Brown"}/>
       <PersonCard lastName={"Smith"} 
                   firstName={"Maria"} 
-                  age={"62"} 
+                  currentAge={62} 
                   hair={"Brown"}/>
     </div>
   );
